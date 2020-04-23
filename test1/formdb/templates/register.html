@@ -1,0 +1,157 @@
+{% extends 'base.html' %}
+{% block content %}
+
+ 
+ <div class="page-wrapper">
+       
+
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+		
+        <div class="page-container">
+            <!--<header class="header-dekstop"> </header>-->
+			
+			
+                
+            
+            <!-- HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+           
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                       
+                        <div class="row m-t-25">
+                            <div class="col-sm-6 col-lg-3"><br>
+                                <div class="overview-item overview-item--c1">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                              
+                                            </div>
+                                            <div class="text">
+                                                
+                                                <span>World’s Largest Single Location Coal based Private Power Plants</span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart1"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3"><br>
+                                <div class="overview-item overview-item--c2">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                
+                                            </div>
+                                            <div class="text">
+                                              
+                                                <span>Largest thermal power producer in India        . <br>  <br>                     					     </span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart2"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-sm-6 col-lg-3"><br>
+                                <div class="overview-item overview-item--c1">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                               
+                                            </div>
+                                            <div class="text">
+                                              
+                                                <span>Largest Sea Water based Flue Gas De-Sulfurization Plant in India</span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart1"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3"><br>
+                                <div class="overview-item overview-item--c2">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                
+                                            </div>
+                                            <div class="text">
+                                              
+                                                <span>Adani Power Training & Research Institute - accredited Grade A by CEA                    					     </span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart2"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                           
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <h2 class="title-1 m-b-25">Register Here</h2>
+								
+                                <form method="POST" class="post-form">  
+                                    {% csrf_token %} 
+                                   <div class="form-group" style="font-family:verdana">
+                                    <b>Enter Your Firstname:</b>
+                                    <input type="text" name="firstname" class="form-control" required="required" pattern=".{2,}" data-rule-minlength="2"/>
+                                    <b>Enter Your lastname:</b>
+                                    <input type="text" name="lastname" class="form-control" required="required" pattern=".{2,}" data-rule-minlength="2"/>
+                                    <b>Enter Your email:</b>
+                                    <input type="text" name="email" class="form-control" required="required" type="email" autocomplete="email" />
+                                    <b>Enter Your mobile:</b>
+                                    <input type="text" name="mobile" class="form-control" required="required" pattern=".{2,}" data-rule-maxlength="10"/>
+                                    <b>Enter Your carnumber:</b>
+                                    <input type="text" name="carnumber" class="form-control" required="required" pattern=".{2,}" data-rule-minlength="2"/>
+                                    <b>Enter Your carmodel:</b>
+                                    <input type="text" name="carmodel" class="form-control" required="required" pattern=".{2,}" data-rule-minlength="2"/>
+                                    <b>Last Service Details:</b>
+                                    <input type="text" name="lastservice" class="form-control" required="required" pattern=".{2,}" data-rule-minlength="2"/>
+                                    <b>Service 'in-time':</b>
+                                    <input type="text" name="serviceintime" class="form-control" required="required" pattern=".{2,}" data-rule-minlength="2"/>
+                                    <b>Estimated Time:</b>
+                                    <input type="text" name="predictedtime" class="form-control" required="required" pattern=".{2,}" data-rule-minlength="2"/>
+
+                                    </div>
+                                    <button type="submit" class="save btn btn-default">Save</button>  
+                            </form>  
+                            <script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.js"></script>
+                            <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+                            
+                            <script type="text/javascript">
+                                $('#validate-me-plz').validate();
+                            </script>
+	
+			
+
+									
+									
+									
+	
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                 </div>
+                        
+                    
+                </div>
+            </div>
+			
+			
+{% endblock %}

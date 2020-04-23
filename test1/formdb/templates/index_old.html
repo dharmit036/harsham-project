@@ -1,0 +1,548 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+
+
+
+<div class="site-wrap">
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+ 
+  
+  <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+    
+    <div class="container-fluid">
+      <div class="d-flex align-items-center">
+        <div class="site-logo"><a href="index.html" class="text-uppercase">Expert</a></div>
+        <div>
+          <nav class="site-navigation position-relative text-right" role="navigation">
+            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-xl-block">
+              <li><a href="#home-section" class="nav-link">Home</a></li>
+              <li><a href="#process-section" class="nav-link">Process</a></li>
+              <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+              <li><a href="#services-section" class="nav-link">Services</a></li>
+              
+            </ul>
+          </nav>
+        </div>
+        <div class="ml-auto">
+          <nav class="site-navigation position-relative text-right" role="navigation">
+            <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-xl-block">
+              <li class="cta"><a href="/userform/" class="nav-link"><span class="border bg-danger rounded text-white border-danger">Register Here</span></a></li>
+            </ul>
+          </nav>
+          <a href="#" class="d-inline-block d-xl-none site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+  <div class="intro-section custom-owl-carousel" id="home-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 mr-auto" >
+
+          <div class="owl-carousel slide-one-item-alt-text">
+            <div class="slide-text">
+              <h1>We Do Awesome Things</h1>
+              
+            </div>
+            <div class="slide-text">
+              <h1>Welcome</h1>
+             
+            </div>
+            
+            <div class="slide-text">
+              <h1>We do things right.</h1>
+              
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6 ml-auto"   >
+                      
+         
+          <div class="owl-custom-direction">
+            <a href="#" class="custom-prev"><span class="icon-keyboard_arrow_left"></span></a>
+            <a href="#" class="custom-next"><span class="icon-keyboard_arrow_right"></span></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="site-section section-1">
+    
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 mr-auto mb-5" >
+
+          <div class="mb-5">
+            <h2 class="section-title">About Us</h2>
+            <p>PremiumBikes is India's first standardized network of workshops to provide car services. We provide affordable, transparent and convenient on-demand car services at the comfort of your home or your office. With expert mechanics, state-of-the-art machinery, top quality spares, standardized processes & pricing, Carcrew provides a uniform service experience to all its customers, across its workshops. Everything under one-roof : servicing, repairs, inspections, denting/painting, roadside assistance and car care.
+
+Premium Bikes provides best online car service in India making car maintenance easy, affordable and completely transparent. We also provide you with the best car service deals. Full car service is faciliated at one of the Carcrew car service centre. So book car service now!
+</p>
+      
+          </div>
+
+          
+        </div>
+
+        <div class="col-lg-6"  >
+          <div class="image-absolute-box">
+            
+            <img src="{% static 'images/Car2.png' %}" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container section-counter">
+    <div class="row">
+      <div class="col-md-6 col-lg-3" >
+        <div class="counter d-flex align-items-start mb-5">
+          <div class="icon-wrap"><span class="flaticon-reload text-primary"></span></div>
+
+          <div class="counter-text">
+            <strong class="number" data-number="36">0</strong>
+            <span>Car Serviced Everyday</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" >
+        <div class="counter d-flex align-items-start">
+          <div class="icon-wrap"><span class="flaticon-download text-primary"></span></div>
+          <div class="counter-text">
+            <strong class="number" data-number="20010">0</strong>
+            <span>Clients Server</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" >
+        <div class="counter d-flex align-items-start mb-5">
+          <div class="icon-wrap"><span class="flaticon-monitor text-primary"></span></div>
+          <div class="counter-text">
+            <strong class="number" data-number="20">0</strong>
+            <span>Service Center</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="counter d-flex align-items-start">
+          <div class="icon-wrap"><span class="flaticon-chat text-primary"></span></div>
+          <div class="counter-text">
+            <strong class="number" data-number="39130">0</strong>
+            <span>Cars Serviced</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="site-section section-2 bg-light" id="process-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-5">
+          <h2 class="section-title">Our Approach</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="process bg-white rounded">
+            <div>
+              <span class="flaticon-glasses display-4 text-primary mb-4 d-inline-block"></span>
+              <h3>Data Gathering</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="process bg-white rounded">
+            <div>
+              <span class="flaticon-vector display-4 text-primary mb-4 d-inline-block"></span>
+              <h3>Implementation</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="process bg-white rounded">
+            <div>
+              <span class="flaticon-monitor display-4 text-primary mb-4 d-inline-block"></span>
+              <h3>Launch</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="site-section testimonial-wrap custom-owl-carousel" id="testimonials-section">
+    <div class="container">
+      <div class="row text-center justify-content-center mb-5"  >
+        <div class="col-lg-6 mb-5 text-center">
+          <h2 class="section-title w-100 mx-auto">Testimonials</h2>
+          </div>
+      </div>
+      <div class="row align-items-center" >
+        <div class="col-lg-5 mr-auto">
+
+          <div class="owl-carousel slide-one-item-alt-text">
+            <div class="slide-text">
+              <blockquote>
+                <p><span>&ldquo;</span>Been Covered with PremiumBikes going on 2 years now and they have paid out each time when my car was due to a service at the dealership.<span>&rdquo;</span></p>
+                <p class="author">&mdash;  Jean Doe</p>
+              </blockquote>
+            </div>
+            <div class="slide-text">
+              <blockquote>
+                <p><span>&ldquo;</span>I had 4 Plans with PremiumBikes and I am more than happy to take out another 10 with them.Great Service Guys.<span>&rdquo;</span></p>
+                <p class="author">&mdash;  Gregg Pollach</p>
+              </blockquote>
+            </div>
+            <div class="slide-text">
+             <blockquote>
+                <p><span>&ldquo;</span>Wonderful Service I received,thank you so much.<span>&rdquo;</span></p>
+                <p class="author">&mdash;  Rober Kenneth</p>
+              </blockquote>
+            </div>
+            <div class="slide-text">
+              <blockquote>
+                <p><span>&ldquo;</span>Great Service Guys.<span>&rdquo;</span></p>
+                <p class="author">&mdash;  Joshua Smith</p>
+              </blockquote>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6 ml-auto"   >
+                      
+          <div class="owl-carousel slide-one-item-alt">
+            <img src="{% static 'images/person_1.jpg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'images/person_2.jpg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'images/person_3.jpg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'images/person_4.jpg' %}" alt="Image" class="img-fluid">
+          </div>
+
+          <div class="owl-custom-direction">
+            <a href="#" class="custom-prev"><span class="icon-keyboard_arrow_left"></span></a>
+            <a href="#" class="custom-next"><span class="icon-keyboard_arrow_right"></span></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="site-section bg-light" id="services-section" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-5">
+          <h2 class="section-title">Services</h2>
+          <p>What is it?</p>
+    <P>Service Plans are car service plans that cover the cost of all scheduled services in the future. These are usually indicated in your manufacturer’s handbook or service kit. Regular servicing is essential to keep your vehicle in safe driving condition, but with this plan you won’t have to budget every year for it, nor worry about inflation, parts or labour cost increases.Service plans give you peace of mind and help you budget for the servicing costs that come along with owning a vehicle, so you won’t feel the pinch when the time comes for regular servicing..</p>
+        </p>
+    </div>
+    
+      </div>
+
+    </div>
+
+      
+    <div class="owl-carousel nonloop-block-14">
+      
+      <div class="service">
+        <div>
+          <span class="custom-icon-wrap"><span class="flaticon-reload"></span></span>
+          <h3>Branding Design</h3>
+          <p>Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+        </div>
+      </div>
+
+
+      <div class="service">
+        <div>
+          <span class="custom-icon-wrap"><span class="flaticon-download"></span></span>
+          <h3>WordPress Integration</h3>
+          <p>Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+        </div>
+      </div>
+
+      <div class="service">
+        <div>
+          <span class="custom-icon-wrap"><span class="flaticon-monitor"></span></span>
+          <h3>Web Development</h3>
+          <p>Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+        </div>
+      </div>
+
+      <div class="service">
+        <div>
+          <span class="custom-icon-wrap"><span class="flaticon-chat"></span></span>
+          <h3>HTML5/CSS3</h3>
+          <p>Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+        </div>
+      </div>
+
+      <div class="service">
+        <div>
+          <span class="custom-icon-wrap"><span class="flaticon-glasses"></span></span>
+          <h3>Web Templates</h3>
+          <p>Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+        </div>
+      </div>
+
+      <div class="service">
+        <div>
+          <span class="custom-icon-wrap"><span class="flaticon-vector"></span></span>
+          <h3>Creative Design</h3>
+          <p>Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+  <div class="pricing-wrap bg-primary pricing-counter" id="pricing-section" >
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 text-center">
+          <h2 class="section-title mb-3 text-center text-white mx-auto">Choose Your Plan</h2>
+          <p class="mb-5 section-desc">What is a Service Plan?</p>
+    <p>
+A Service Plan pays for specified aspects of the recommended car service by an approved facility for a specific term or kilometres travelled, whichever comes first, in the Republic of South Africa. Filters, spark plugs and lubricants are normally covered by our car servicing providers.
+</p>
+<p>
+Benefits of a Service Plan?
+</p>
+<p>
+Car servicing can be expensive, but buying a Service Plan comes with the following benefits:
+
+Provides peace of mind that your car servicing is taken care of
+Includes OEM required services
+Fixed, affordable monthly cost for car servicing
+Qualified technicians
+Genuine parts
+A Service Plan, helps to maximize the resale value of your car
+OEM is the original equipment manufacturer of a new vehicle, who manufactures the original parts and components used during the construction of your vehicle. In certain countries, the OEM is often represented by an Importer of a specific brand of vehicle.
+<p>
+What is the difference between a Service Plan and a Maintenance Plan?
+A Service Plan pays for specified aspects of the recommended services of your car by an approved facility for a specific term or kilometres travelled, whichever comes first, in the Republic of South Africa. Filters, spark plugs and lubricants are normally covered by our Service Plan product partners and their car servicing providers. A Maintenance Plan pays for everything included in the Service Plan, plus the replacement, maintenance or repair of specific wear-and-tear parts, when necessary.
+</p>
+<p>
+</p>
+Additional benefits that comes with a Car Service Plan:
+When buying a Service Plan through MotorHappy, the chances are good that the plan will come standard with additional benefits such as Roadside Assistance. The Car Service Plan offered through MotorHappy includes free Roadside Assistance with benefits such as:
+</p>
+<p>
+Towing:
+If you experience a mechanical breakdown or electrical failure which was not directly caused by a road accident and cannot be repaired on the spot, a Roadside Assistance agent will dispatch a roadside team to tow your vehicle to the nearest approved facility for repairs.
+</p>
+<p>
+Car hire or Overnight accommodation:
+In the event of a mechanical breakdown or electrical failure and we authorise the towing of your vehicle to the nearest approved repairer, MotorHappy will contribute towards the cost of any overnight accommodation or car hire you will require immediately after the tow.
+</p>
+<p>
+Message relay:
+In the event of a mechanical breakdown or electrical failure, we can send a message to a family member; friend or business associate on request.
+</p>
+<p>
+Tyre change:
+Assistance will be provided should you require assistance with a tyre change.
+</p>
+<p>
+Fuel run:
+If your vehicle runs out of fuel and you are stranded on the side of the road, we will dispatch a contractor with a canister of fuel for your vehicle so that you can reach the nearest petrol station and re-fuel your vehicle.
+</p>
+<p>
+Jump-start:
+If your vehicle has a flat battery, we will send a contractor to help you jump-start your vehicle.
+</p>
+<p>
+Key lockout:
+Should you accidentally lock your vehicle’s key in your vehicle, we will send out a locksmith to open your vehicle and retrieve your key.</p>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="col-lg-4">
+        <div class="pricing">
+          <h3>MotorBike</h3>
+          <p class="description">Service Plan For Motorbikes</p>
+          <div class="price">
+            <span>Starting at</span>
+            <strong>₹<em class="number" data-number="4000">0</em></strong>
+            <span>Per Year</span>
+          </div>
+
+          <p class="description-2 mb-5">It Includes Service Plan of motorbike every 3 months</p>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="pricing pricing-popular">
+          <h3>Premium </h3>
+          <p class="description">Service Plan for Premium Cars</p>
+          <div class="price">
+            <span>Starting at</span>
+            <strong>₹<em class="number" data-number="10000">0</em></strong>
+            <span>Per Year</span>
+          </div>
+
+          <p class="description-2 mb-5">It Includes Service Plan of Car every 3 months</p>
+
+         
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="pricing">
+          <h3>For Both Car and Motorbike</h3>
+          <p class="description">Service Plan for both Car and motorbike</p>
+          <div class="price">
+            <span>Starting at</span>
+            <strong>₹<em class="number" data-number="12000">0</em></strong>
+            <span>Per Year</span>
+          </div>
+
+          <p class="description-2 mb-5">It Includes Service Plan of Car and motorbike every 3 months</p>
+
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="site-section" id="contact-section"  >
+    <div class="container">
+
+      <div class="row align-items-center">
+        <div class="col-md-5 order-1 order-md-2 mb-5 mb-md-0">
+          <img src="{% static 'images/about_1.jpg'%}" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-md-6 mr-auto order-2 order-md-1">
+          
+          <h2 class="section-title mb-3">Contact Us</h2>
+          <p class="mb-5">If you want to suggest or want to contact us than fill up this form.</p>
+        
+          <form method="post">
+            <div class="form-group row">
+              <div class="col-md-6 mb-4">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-12">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-12">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-12">
+                <textarea class="form-control" id="" cols="30" rows="10" placeholder="Write your message here."></textarea>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-6">
+                
+                <input type="submit" class="btn btn-primary py-3 px-5 btn-block" value="Send Message">
+              </div>
+            </div>
+
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+   
+  <footer class="footer-section bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>About Us</h3>
+          <p>Premium bikes is a chain of motorbike and scooter service centers across gujarat.We provide services and repair job for your vehicles.</p>
+        </div>
+
+        <div class="col-md-3 ml-auto">
+          <h3>Links</h3>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#home-section" class="smoothscroll">Home</a></li>
+            <li><a href="#process-section" class="smoothscroll">Process</a></li>
+            <li><a href="#testimonials-section" class="smoothscroll">Testimonials</a></li>
+            <li><a href="#services-section" class="smoothscroll">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h3>Subscribe</h3>
+          <p>For News regarding out services please subscribe</p>
+          <form action="#">
+            <div class="d-flex mb-5">
+              <input type="text" class="form-control rounded-0" placeholder="Email">
+              <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  
+</div> <!-- .site-wrap -->
+
+{% endblock %}
